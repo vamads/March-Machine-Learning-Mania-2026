@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Data and Models (Too large or local)
+data/
+models/
+submissions/
+catboost_info/
+
+# Experimental / Redundant (Excluded for lean repo)
+src/pure_raddar/
+src/raddar_core/
+src/ordinals/
+src/ensemble/hpo_tuning.py
+src/ensemble/tune.py
+src/ensemble/test_*.py
+src/ensemble/raddar_cauchy_old.py
+src/ensemble/submit_raddar_pure.py
+
+# Diagnostics & Logs
+*.log
+audit_l1.log
+feature_analysis_output.txt
+hpo_results.txt
+results_doubling.txt
+architecture_comparison_final.txt
+ensemble_results_*.json
+doubling_results_summary.json
+test_dropout.py
+verify_doubling_results.py
+
+# IDE / OS
+.DS_Store
+.vscode/
+
+# Project internal
+.agents/
+march-machine-learning-mania-2026/

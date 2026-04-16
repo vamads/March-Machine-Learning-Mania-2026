@@ -1,0 +1,17 @@
+RADDAR BASELINE — HOLDOUT RESULTS (2022-2025)
+==================================================
+
+Brier Score:  0.172100
+Log Loss:     0.516239
+Accuracy:     0.7295 (391/536)
+
+Per-Season:
+  2022: Brier=0.2000  LL=0.6128  Acc=70.9%  (N=134)
+  2023: Brier=0.1818  LL=0.5345  Acc=70.1%  (N=134)
+  2024: Brier=0.1620  LL=0.4788  Acc=73.9%  (N=134)
+  2025: Brier=0.1446  LL=0.4389  Acc=76.9%  (N=134)
+
+Comparison:
+  GNN Ensemble:    Brier=0.1711  LL=0.5077  Acc=74.3%
+  Raddar Baseline: Brier=0.1721  LL=0.5162  Acc=72.9%
+  Delta:           Brier=+0.0010
